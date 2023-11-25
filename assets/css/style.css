@@ -5,7 +5,7 @@
     --color-heading: #eef3db;
     --color-base: #033f47;
     --color-base2: #022a30;
-    --color-brand: #e0f780;
+    --color-brand: #c0be45;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
@@ -16,3 +16,62 @@ body{
     color: var(--color-body);
     font-family: var(--font-base);
 }
+
+h1,h2,h3,h4,h5,h6{
+
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    color: var(--color-brand);
+}
+
+img{
+    width: 100%;
+}
+
+.text-brand{
+    color: var(--color-brand);
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar*/
+
+.navbar{
+    background-color: var(--color-base);
+}
+
+.navbar .nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.navbar .nav-link:hover{
+    color: var(--color-brand);
+}
+
+/* content wrapper*/
+
+#content-wrapper{
+    padding-left: var(--sidbar-width);
+
+}
+
