@@ -1,5 +1,4 @@
 # Proyecto-Alkemy-MinDeTrabajo
-# Portafolio Digital Avanzado
 
 ¡Bienvenido a la evolución de tu portafolio digital! Este proyecto tiene como objetivo mejorar y optimizar tu presencia en línea utilizando tecnologías avanzadas como HTML, CSS y Bootstrap. Al final de este emocionante viaje, no solo tendrás un portafolio funcional, sino una poderosa herramienta que destaca tus habilidades y proyectos.
 
