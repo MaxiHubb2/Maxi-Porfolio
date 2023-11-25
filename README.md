@@ -1,5 +1,4 @@
-# Proyecto-Alkemy-MinDeTrabajo
-# Portafolio Digital Avanzado 🚀
+# Proyecto-Alkemy-MinDeTrabajo  🚀
 
 ## Requerimientos Generales
 1. Mejorar y optimizar tu portafolio existente.
