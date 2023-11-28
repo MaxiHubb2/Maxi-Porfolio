@@ -1,14 +1,13 @@
+// Inicializar AOS
 AOS.init();
-// You can also pass an optional settings object
-// below listed default settings
-AOS.init({
-  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 120, // offset (in px) from the original trigger point
-  delay: 0, // values from 0 to 3000, with step 50ms
-  duration: 700, // values from 0 to 3000, with step 50ms
-  easing: 'ease', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  mirror: false, // whether elements should animate out while scrolling past them
-  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
+// Configuraciones predeterminadas están listadas a continuación
+AOS.init({
+  offset: 120, // desplazamiento (en píxeles) desde el punto de activación original
+  delay: 0, // valores de 0 a 3000, con paso de 50 ms
+  duration: 700, // valores de 0 a 3000, con paso de 50 ms
+  easing: 'ease', // tipo de interpolación predeterminado para las animaciones de AOS
+  once: false, // si la animación debe ocurrir solo una vez - al desplazarse hacia abajo
+  mirror: false, // si los elementos deben animarse al salir de la vista durante el desplazamiento
+  anchorPlacement: 'top-bottom', // define la posición del elemento con respecto a la ventana que debe activar la animación
 });
