@@ -17,6 +17,19 @@
     }
 }
 
+@media(max-width: 950px){
+
+    #content-wrapper{
+        padding-left: 0;
+    }
+
+    .full-height.px-lg-5{
+        min-height: 110vh;
+    }
+
+}
+
+
 @media(max-width: 795px){
 
     .full-height.px-lg-5{
@@ -65,7 +78,9 @@
             min-height: 120vh;
         }
 }
-    @media (max-width: 530px) {
+
+
+    @media (max-width: 550px) {
         #Proyectos {
             padding: 10px; 
             min-height: 140vh;
@@ -79,6 +94,11 @@
 
         .full-height.px-lg-5 {
             min-height: 140vh; 
+            }
+
+            .link-custom{
+                display: flex;
+                margin-top: 30px;
             }
     }
 
