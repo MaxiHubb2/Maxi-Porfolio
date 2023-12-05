@@ -16,3 +16,71 @@
         
     }
 }
+
+@media(max-width: 795px){
+
+    .full-height.px-lg-5{
+        min-height: 130vh;
+    }
+    
+    .navbar-brand {
+
+        display: block; 
+        text-align: center; 
+        width: 100%; 
+        margin-bottom: 5px; 
+      }
+    
+      .navbar-toggler {
+        margin: auto; 
+        display: block; 
+      }
+
+        .navbar-collapse {
+            max-height: none; 
+            text-align: center;
+        }
+
+        .navbar-nav {
+            padding-top: 10px; 
+        }
+
+        .navbar-nav-centered {
+            display: inline-block;
+            width: auto;
+        }
+
+        #content-wrapper{
+            padding-left: 0;
+        }
+
+        #Habilidades,
+        #Proyectos,
+        #Experiencia-laboral{
+            min-height: 100vh;
+        }
+
+        #Contacto,
+        #Educacion{
+            min-height: 120vh;
+        }
+}
+    @media (max-width: 530px) {
+        #Proyectos {
+            padding: 10px; 
+            min-height: 140vh;
+        }
+
+        .col-md-4 {
+            flex: 0 0 50%; 
+            max-width: 50%; 
+            margin-bottom: 20px; 
+        }
+
+        .full-height.px-lg-5 {
+            min-height: 140vh; 
+            }
+    }
+
+
+

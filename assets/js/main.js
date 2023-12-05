@@ -11,3 +11,11 @@ AOS.init({
   mirror: false, // si los elementos deben animarse al salir de la vista durante el desplazamiento
   anchorPlacement: 'top-bottom', // define la posición del elemento con respecto a la ventana que debe activar la animación
 });
+
+// Evento clic en un enlace de la hamburguesa
+document.querySelectorAll('.navbar-nav a').forEach(function(navLink) {
+  navLink.addEventListener('click', function() {
+    // Cerrar la hamburguesa después de hacer clic en un enlace
+    document.querySelector('.navbar-collapse').classList.remove('show');
+  });
+});
