@@ -1,6 +1,6 @@
 # Proyecto-Alkemy-MinDeTrabajo  🚀
 
-## Puedes visitar mi portfolio [Aca](https://maxihubb2.github.io/Proyecto-Alkemy-MinDeTrabajo/) 
+## Puedes visitar mi portfolio [Aca](https://maxihubb2.github.io/Maxi-Porfolio/) 
 
 ## Mis Metas
 1. **Mejorar y optimizar mi portafolio existente.**
